@@ -1,0 +1,17 @@
+.button {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 20px;
+    right: 52px;
+    gap: 21px;
+}
+
+.button > button {
+    border: none;
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    background: #0029FF;
+    cursor: pointer;
+}
